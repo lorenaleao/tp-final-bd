@@ -1,4 +1,4 @@
-# [Trabalho Prático final de IBD](https://homepages.dcc.ufmg.br/~mirella/DCC011/aula19-TPfinal.pdf)
+# [Trabalho Prático Final de IBD](https://homepages.dcc.ufmg.br/~mirella/DCC011/aula19-TPfinal.pdf)
 
 O objetivo deste trabalho é projetar e implementar um banco de dados relacional para realizar consultas interessantes.
 
