@@ -2,10 +2,6 @@
 
 O objetivo deste trabalho é projetar e implementar um banco de dados relacional para realizar consultas interessantes.
 
-## Referências
-
-1: https://pypi.org/project/imdb-sqlite/ (Explica como criar o db de uma forma fácil)
-
 ## O que deve ser apresentado
 * Diagrama entidade-relacionamento 
 * Esquema relacional (https://docs.google.com/document/d/11nT_eNIpbQ9Q5jwggO74jjW5C3hePKVsgjrZiPa_65k/edit?usp=sharing)
@@ -35,3 +31,8 @@ A segunda metade da avaliação deste trabalho considera três dessas quatro op�
 2. dados e consultas mais interessantes, com dados de tipo não-convencional
 3. mais três consultas do tipo relatório
 4. interface gráfica (e.g., um website) para visualização interativa dos dados
+
+
+## Referências
+
+1: https://pypi.org/project/imdb-sqlite/ (Explica como criar o db de uma forma fácil)
