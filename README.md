@@ -35,6 +35,6 @@ A segunda metade da avaliação deste trabalho considera três dessas quatro op�
 
 ## Referências
 
-1: https://pypi.org/project/imdb-sqlite/ (Explica como criar o db de uma forma fácil)
-2: https://www.joblo.com/movie-posters/archives/F?from=160 (movies' posters)
-3: https://stackoverflow.com/questions/29659701/how-to-insert-data-into-a-specific-column-in-a-sqlite-database (atualizando apenas um subconjunto de colunas/linhas em uma tabela no sqlite)
+1. https://pypi.org/project/imdb-sqlite/ (Explica como criar o db de uma forma fácil)
+2. https://www.joblo.com/movie-posters/archives/F?from=160 (movies' posters)
+3. https://stackoverflow.com/questions/29659701/how-to-insert-data-into-a-specific-column-in-a-sqlite-database (atualizando apenas um subconjunto de colunas/linhas em uma tabela no sqlite)
