@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Into Movies - Banco de Dados</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body>
+
+	<div id="area-cabecalho">
+		
+		<div id="area-logo">
+			<h1>Into<span class="branco">Movies</span></h1>
+		</div>
+		<div id="area-menu">
+			<a href="index.html">Home</a>
+			<a href="">Quem Somos?</a>
+			<a href="modelos.html">Banco de Dados</a>
+			<a href="compare.html">Compare Filmes</a>
+			<a href="">Pesquise</a>
+		</div>
+
+	</div>
+
+	<div id="area-principal">
+
+		<div id="area-principal">
+
+			<!-- abertura postagem -->
+			<div class="postagem">
+				<h2>Compare Filmes</h2>
+				<p>
+					Digite abaixo o nome de dois filmes e descubra qual tem o melhor ranking de acordo com o IMDb.
+				</p> <br>
+
+				<form action="/compare.php" target="_self" method="post">
+					<p>Filme 1:
+					<input type="text" name="filme1"><br></p>
+					<p>Filme 2:
+					<input type="text" name="filme2"><br></p>
+
+					<input type="submit" value="Comparar">
+				</form>
+				
+			</div><!--// fechamento postagem -->
+
+		</div>
+
+</body>
+</html>
