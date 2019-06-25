@@ -2,6 +2,8 @@
 
 O objetivo deste trabalho é projetar e implementar um banco de dados relacional para realizar consultas interessantes.
 
+Link para editar o relatório: https://www.overleaf.com/3754959848qbzwdsmpqftf
+
 ## O que deve ser apresentado
 * Diagrama entidade-relacionamento 
 * Esquema relacional (https://docs.google.com/document/d/11nT_eNIpbQ9Q5jwggO74jjW5C3hePKVsgjrZiPa_65k/edit?usp=sharing)
