@@ -3,7 +3,6 @@
 import sqlite3
 
 def readImage(filename):
-
     fin = None
 
     try:
@@ -12,17 +11,14 @@ def readImage(filename):
         return img
 
     except IOError as e:
-
         print(e)
         sys.exit(1)
 
     finally:
-
         if fin:
             fin.close()
 
 def writeImage(data, filename):
-
     fout = None
 
     try:
@@ -30,17 +26,14 @@ def writeImage(data, filename):
         fout.write(data)
 
     except IOError as e:
-
         print(e)
         sys.exit(1)
 
     finally:
-
         if fout:
         	fout.close()
 
 def recoverImages(cursor, titles, image_addresses):
-	
 	for i in range(len(titles)):
 		cursor.execute("""
 			    SELECT title_poster 
@@ -48,8 +41,8 @@ def recoverImages(cursor, titles, image_addresses):
 			    WHERE title =(?)
 			    LIMIT 1 
 			    """, (titles[i],))
+		
 		data = cursor.fetchone()[0]
-
 		filename = "_" + image_address[i]
 		writeImage(data, filename)
 
@@ -81,17 +74,13 @@ def main()
 
 		recoverImages(cursor, titles, image_addresses)
 		
-
 	except sqlite3.Error as e:
-
 	    if conn:
 	        conn.rollback()
-
 	    print(e)
 	    sys.exit(1)
 
 	finally:
-
 	    if conn:
 	        conn.close()
 
