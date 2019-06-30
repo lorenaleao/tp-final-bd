@@ -40,3 +40,6 @@ A segunda metade da avaliação deste trabalho considera três dessas quatro op�
 1. https://pypi.org/project/imdb-sqlite/ (Explica como criar o db de uma forma fácil)
 2. https://www.joblo.com/movie-posters/archives/F?from=160 (movies' posters)
 3. https://stackoverflow.com/questions/29659701/how-to-insert-data-into-a-specific-column-in-a-sqlite-database (atualizando apenas um subconjunto de colunas/linhas em uma tabela no sqlite)
+
+4. https://stackoverflow.com/questions/16855957/return-google-image-search-results-in-html-using-php
+5. http://www.sqlitetutorial.net/sqlite-php/blob/
